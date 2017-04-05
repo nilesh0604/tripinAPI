@@ -1,0 +1,42 @@
+{
+  "name": "iBarterAPI",
+  "version": "1.0.0",
+  "description": "iBarter API Service Provider",
+  "keywords": [
+    "iBarter",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Nilesh Shinde",
+    "email": "Nilesh.0604@gmail.com",
+    "url": "http://www.NileshShinde.com/"
+  },
+  "homepage": "http://www.NileshShinde.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilesh0604/iBarterAPI"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cloudinary": "^1.4.4",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.5.9",
+    "mongoose-int32": "^0.2.0",
+    "multer": "^1.2.0",
+    "multer-storage-cloudinary": "^2.2.1",
+    "node-restful": "^0.2.5",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
